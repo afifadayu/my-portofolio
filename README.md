@@ -3,7 +3,7 @@
 This is a landing page
 
 ### Web Screenshot
-<img src="img/1.png" width="700" height="auto">
+<img src="img/1.jpg" width="800" height="auto">
 
 ### Installation
 
