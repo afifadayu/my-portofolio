@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Row, Col} from 'react-bootstrap';
 import Aos from 'aos';
+import './App.css';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -13,8 +13,6 @@ import EmailIcon from '@material-ui/icons/Email';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'aos/dist/aos.css';
-import lato from './fonts/Lato-Regular.ttf';
-import logo from './img/beaudei.png';
 import berdooit from './img/berdooit.png';
 import mag from './img/make-a-group.png';
 import tedx from './img/tedx.png';
@@ -28,7 +26,6 @@ import stunting from './img/stunting.png';
 
 const useStyles = makeStyles(() => ({
   background: {
-    fontFamily: 'lato',
     backgroundColor: '#fdfdfd',
   },
   content: {
